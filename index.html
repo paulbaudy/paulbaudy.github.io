@@ -37,15 +37,17 @@
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
+            <div class="navbar-header page-scroll" style="max-width:300px;">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Paul Baudy</a>
+                <a class="navbar-brand" href="#page-top">Paul Baudy </a>
+                
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
@@ -54,7 +56,7 @@
                         <a href="#portfolio">Projets</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#about">A propos</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
@@ -99,7 +101,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/tourmaline.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -119,7 +121,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/rabbit.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -161,7 +163,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
+                    <h2>A propos de moi</h2>
                     <hr class="star-light">
                 </div>
             </div>
@@ -191,28 +193,30 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-8 col-lg-offset-2"><br/>
+                    <p style="text-align:center;">Vous pouvez me contacter par mail à l'aide du formulaire suivant :</p><br/>
+                    
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Votre nom</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <input type="text" class="form-control" placeholder="Votre nom" id="name" required data-validation-required-message="Votre nom">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Votre adresse Email</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <input type="email" class="form-control" placeholder="Votre adresse Email" id="email" required data-validation-required-message="Votre adresse Email">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Votre message...</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <textarea rows="5" class="form-control" placeholder="Votre message..." id="message" required data-validation-required-message="Votre message..."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -220,10 +224,26 @@
                         <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Send</button>
+                                <center><button type="submit" class="btn btn-success btn-lg">Envoyer</button></center><br/>
                             </div>
                         </div>
                     </form>
+                    <p style="text-align:center;">... Ou bien consulter mon profil sur ces réseaux :</p><br/>
+                    <center><ul class="list-inline">
+                            <li>
+                                <a href="https://ca.linkedin.com/in/paul-baudy-127027134
+" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/paulbaudy" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                    </ul></center><br/>
+                    <center><h3>Adresse actuelle</h3></center>
+                        <p style="text-align:center;"> 555 Boulevard de l'Université, Appartement E2
+                            <br>G7H 2B1
+                            <br>Chicoutimi, Canada
+                            <br><br>paul.baudy@outlook.fr
+                            <br>(581) 574-4646</p>
                 </div>
             </div>
         </div>
@@ -231,46 +251,12 @@
 
     <!-- Footer -->
     <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <div class="footer-below">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Your Website 2016
+                        Copyright &copy; Paul Baudy 2017
                     </div>
                 </div>
             </div>
@@ -297,25 +283,20 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Tourmaline</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/portfolio/tourmaline.png" class="img-responsive img-centered" alt="">
+                    
+                            <a href="https://drive.google.com/file/d/0B-u-ztmGluYuaC1NWS05VHNVTFk/view?usp=sharing" class="btn-social btn-outline"><i class="fa fa-fw fa-cloud-download"></i></a><br><br>
+                         
+                            <p style="text-align:justify;"><strong>  Tourmaline</strong> est un side scroller en trois dimensions fait avec le moteur <strong>Unity</strong>. Il peut se jouer en solo, mais également à 2, en coopération sur un réseau local. Le jeu se compose de 4 niveaux, qui vont raconter au fur et à mesure l'histoire. <br><br>Les joueurs seront confrontés à différentes énigmes à travers les niveaux, qui possèderont chacune leur propre gameplay. Certaines de ces énigmes prendront la forme de mini-jeux, comme les puzzles géométriques ou de lettres.<br><br>Dans Tourmaline, il y a deux personnages principaux : le villageois marchand et son apprenti. Ils possèdent des compétences différentes. L’apprenti est plus jeune que son mentor et saura donc se faufiler plus facilement que celui-ci. Le villageois marchand sait nager et utilise des armes de combat rapproché telles que des bâtons ou des épées. Il est assez brave pour oser le corps à corps, mais ce courage réduit  sa discrétion. En revanche, son apprenti est plus craintif : il a la phobie de l’eau et n’utilise que des armes à distance, comme l’arc ou le boomerang. Il sera donc plus habile dans les phases d’infiltration que son mentor.</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    <strong>Novembre 2016
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fermer</button>
                         </div>
                     </div>
                 </div>
@@ -334,7 +315,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Raven</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
@@ -371,25 +352,22 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Super Rabbit</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/portfolio/rabbit.png" class="img-responsive img-centered" alt="">
+                            
+                            <a href="https://github.com/paulbaudy/8INF951-Projet" class="btn-social btn-outline"><i class="fa fa-fw fa-github" style=""></i></a><br><br>
+                            
+                            <p style="text-align:justify;">L'objectif de ce projet était d'implémenter les transformations matricielles (Translation, rotation, mise à échelle, réflexion, projection orthographique et shearing) en C++ avec OpenGl, et de préparer un petit jeu qui pouvait utiliser ces transformations. <br><br>Super Rabbit est donc un jeu, où il faudra aider le lapin à franchir les obstacles en utilisant les transformations, pour qu'il puisse retrouver sa carotte.</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
+                    
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    <strong>Décembre 2016
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
+                               
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fermer</button>
                         </div>
                     </div>
                 </div>
